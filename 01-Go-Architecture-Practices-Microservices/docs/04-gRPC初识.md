@@ -77,7 +77,7 @@ grpc.NewServer(args)
 
 ## Protocol buffers
 
-gRPC 默认使用 `protocol buffers`，这是 Google 开源的一套成熟的结构数据序列化机制（当然也可以使用其他数据格式如 JSON），用 `protocol buffers` 消息类型来定义方法参数和返回类型。它拥有轻量简化的语法、一些有用的新功能，并且支持更多新语言。
+gRPC 默认使用 `protocol buffers`，Google 开源的一套成熟的结构数据序列化机制（当然也可以使用其他数据格式如 JSON），用 `protocol buffers` 消息类型来定义方法参数和返回类型。它拥有轻量简化的语法、一些有用的新功能，并且支持更多新语言。
 
 在`golang/protobuf` Github 源码库里还有针对 Go 语言的生成器， 对更多语言的支持正在开发中。
 
